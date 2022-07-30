@@ -16,7 +16,7 @@ body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
     font-size: 14px;
-    Line height 1.2;
+    Line-height: 1.2;
     }
 
     li {
@@ -52,6 +52,11 @@ body {
 
 .footer-icon {
     color: #ffffff;
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+    letter-spacing: 0.03em;
 }
 
 .nav-site-link {
@@ -98,6 +103,12 @@ body {
     color: #ffffff;
     
 }
+.button:hover {
+    color:red
+}
+.button:focus {
+    color: red;
+}
 
 .caption {
     color: #ffffff;
@@ -136,7 +147,6 @@ body {
     color: var(--primery-title-color);
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.2;
         text-align: center;
         
 }
@@ -147,7 +157,6 @@ body {
     color: var(--text-color);
         font-weight: 400;
         font-size: 16px;
-        line-height: 1.2;
         text-align: center;
 }
 
@@ -155,7 +164,20 @@ body {
     color: var(--primery-title-color);
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.2;
         text-align: center;
         
+}
+
+
+
+/*  PORTFOLIO */
+
+.caption-portfolio {
+    color: #000000;
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1.3;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
 }
