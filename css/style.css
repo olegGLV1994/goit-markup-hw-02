@@ -34,7 +34,6 @@ body {
 
 .icon {
     font-family: 'Raleway';
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
         
@@ -42,7 +41,6 @@ body {
 
 .icon-studio {
      font-family: 'Raleway';
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
 }
@@ -53,7 +51,6 @@ body {
 .footer-icon {
     color: #ffffff;
     font-family: 'Raleway';
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
     letter-spacing: 0.03em;
@@ -101,6 +98,7 @@ body {
 .button {
     background-color: var(--accent-color);
     color: #ffffff;
+    cursor: pointer;
     
 }
 .button:hover {
