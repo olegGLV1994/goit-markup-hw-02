@@ -153,7 +153,7 @@ body {
         text-align: center;
 }
 
-.team h3 {
+.team .heading-name {
     color: var(--primery-title-color);
         font-weight: 500;
         font-size: 16px;
