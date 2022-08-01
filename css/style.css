@@ -23,6 +23,10 @@ body {
         list-style: none;
     }
 
+    a {
+        text-decoration: none;
+    }
+
 
 /* Header */
 .icon {
@@ -46,15 +50,6 @@ body {
 }
 
 
-/* Footer Icon */
-
-.footer-icon {
-    color: #ffffff;
-    font-family: 'Raleway';
-        font-weight: 700;
-        font-size: 26px;
-    letter-spacing: 0.03em;
-}
 
 .nav-site-link {
     color: var(--primery-title-color);
@@ -63,14 +58,14 @@ body {
 }
 
 .nav-site-link:hover {
-    color: red;
+    color: var(--accent-color);
 }
 .nav-site-link:focus {
-    color: red;
+    color: var(--accent-color);
 }
 
 .nav-site-link:active {
-    color: blue;
+    color: red;
 }
 
 .auth-link {
@@ -80,15 +75,15 @@ body {
 }
 
 .auth-link:hover {
-   color: red;
+   color: var(--accent-color);
 }
 
 .auth-link:focus {
- color: red;
+ color: var(--accent-color);
 }
 
 .auth-link:active {
-    color: blue;
+    color: red;
 }
 
 /* Main */
@@ -102,10 +97,10 @@ body {
     
 }
 .button:hover {
-    color:red
+    color:var(--accent-color);
 }
 .button:focus {
-    color: red;
+    color: var(--accent-color);
 }
 
 .caption {
@@ -158,12 +153,44 @@ body {
         text-align: center;
 }
 
-.heading-name {
+.team h3 {
     color: var(--primery-title-color);
         font-weight: 500;
         font-size: 16px;
         text-align: center;
         
+}
+
+/* FOOTER */
+.footer {
+    background-color: var(--footer-bcg-color);
+}
+.footer-icon {
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+}
+
+.adress {
+        font-weight: 400;
+        line-height: 1.7;
+        color: #FFFFFF;
+}
+
+.contact {
+        font-weight: 400;
+        line-height: 1.7;
+        color: rgba(255, 255, 255, 0.6);
+}
+
+.adress:hover {
+    color: var(--accent-color);
+}
+
+.contact:hover {
+    color: var(--accent-color);
 }
 
 
@@ -178,4 +205,31 @@ body {
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
+}
+
+.Content h3 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+.Content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+.radio-buttons .buttons {
+    background-color: var(--accent-color);
+        color: #ffffff;
+        cursor: pointer;
+}
+
+.buttons:hover {
+    color:var(--accent-color);
+}
+
+.buttons:focus {
+    color: var(--accent-color);
 }
