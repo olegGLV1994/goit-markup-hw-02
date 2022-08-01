@@ -123,14 +123,13 @@ body {
 .heading {
     color: var(--primery-title-color);
         font-weight: 700;
-        letter-spacing: 0.03em;
+        font-size: 14px;
         text-transform: uppercase;
 }
 
 .heading-text {
     color: var(--text-color);
         font-weight: 400;
-        font-size: 14px;
         line-height: 1.7;
 }
 
