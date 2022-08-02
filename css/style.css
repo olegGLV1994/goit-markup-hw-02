@@ -69,7 +69,7 @@ body {
 }
  
 .visited:visited {
-    color: blue;
+    color: var(--accent-color)
 }
 
 .auth-link {
