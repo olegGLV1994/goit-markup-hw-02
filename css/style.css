@@ -67,6 +67,10 @@ body {
 .nav-site-link:active {
     color: red;
 }
+ 
+.visited:visited {
+    color: blue;
+}
 
 .auth-link {
     color: var(--text-color);
@@ -94,6 +98,12 @@ body {
     background-color: var(--accent-color);
     color: #ffffff;
     cursor: pointer;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.8;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
     
 }
 .button:hover {
@@ -176,19 +186,28 @@ body {
         font-weight: 400;
         line-height: 1.7;
         color: #FFFFFF;
+        font-style: normal;
 }
 
 .contact {
         font-weight: 400;
         line-height: 1.7;
         color: rgba(255, 255, 255, 0.6);
+        font-style: normal;
 }
 
 .adress:hover {
     color: var(--accent-color);
 }
+.adress:focus {
+    color: var(--accent-color);
+}
 
 .contact:hover {
+    color: var(--accent-color);
+}
+
+.contact:focus {
     color: var(--accent-color);
 }
 
@@ -220,15 +239,22 @@ body {
     color: var(--text-color);
 }
 .radio-buttons .buttons {
-    background-color: var(--accent-color);
-        color: #ffffff;
+    background-color: #F5F4FA;
+        color: var(--primery-title-color);
         cursor: pointer;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: center;
+        letter-spacing: 0.03em;
 }
 
 .buttons:hover {
-    color:var(--accent-color);
+    background-color:var(--accent-color);
+    color: #FFFFFF;
 }
 
 .buttons:focus {
-    color: var(--accent-color);
+background-color: var(--accent-color);
+    color: #FFFFFF;
 }
